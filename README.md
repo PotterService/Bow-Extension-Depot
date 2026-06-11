@@ -23,3 +23,17 @@ Each extension includes its own information page, screenshots, version history, 
 Thank you for supporting Bow's projects and ideas. New extensions, updates, and improvements are added regularly, so be sure to check back often.
 
 Happy browsing and enjoy exploring the BowVerse!
+
+
+# Bow Extension Depot
+
+Starter GitHub Pages site for Bow-created browser extensions.
+
+## How to add a new extension
+
+1. Create a new folder, for example `Bow-Closet-Vault/`.
+2. Add an `index.html` information page inside that folder.
+3. Put the extension ZIP in `downloads/`.
+4. Add an entry to `extensions.json`.
+
+The main page auto-loads cards from `extensions.json`.
