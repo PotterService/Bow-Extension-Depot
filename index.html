@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bow Extension Depot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="topbar">
+      <div class="brand"><span class="logo">🧩</span> Bow Extension Depot</div>
+      <a href="#install">Install Help</a>
+    </nav>
+    <section class="heroContent">
+      <p class="eyebrow">BowVerse Browser Extensions</p>
+      <h1>Discover, download, and explore Bow-created browser extensions.</h1>
+      <p class="subtitle">A central depot for Bow's browser extension projects, release notes, screenshots, and installation guides.</p>
+      <div class="heroButtons">
+        <a class="primary" href="#extensions">Browse Extensions</a>
+        <a class="secondary" href="#install">How to Install</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section intro">
+      <h2>Welcome to Bow Extension Depot</h2>
+      <p>This repository is the official home for browser extensions created and maintained by Bow. Each extension can have its own folder, information page, screenshots, version history, and download link.</p>
+    </section>
+
+    <section id="extensions" class="section">
+      <div class="sectionHeader">
+        <div>
+          <p class="eyebrow">Extension Library</p>
+          <h2>Available Extensions</h2>
+        </div>
+        <input id="searchInput" placeholder="Search extensions..." />
+      </div>
+      <div id="extensionGrid" class="grid"></div>
+      <p id="emptyState" class="empty" hidden>No extensions found.</p>
+    </section>
+
+    <section id="install" class="section install">
+      <p class="eyebrow">Install Guide</p>
+      <h2>How to install an unpacked extension</h2>
+      <ol>
+        <li>Download the extension ZIP file.</li>
+        <li>Extract/unzip the folder.</li>
+        <li>Open <code>chrome://extensions</code> in Chrome or a Chromium browser.</li>
+        <li>Turn on <strong>Developer Mode</strong>.</li>
+        <li>Click <strong>Load unpacked</strong>.</li>
+        <li>Select the folder that directly contains <code>manifest.json</code>.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Bow Extension Depot • Part of the BowVerse</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

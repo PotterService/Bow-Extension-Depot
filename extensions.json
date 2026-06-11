@@ -1,0 +1,28 @@
+[
+  {
+    "name": "MiniNet",
+    "folder": "MiniNet",
+    "version": "1.0.0",
+    "status": "Beta",
+    "category": "Browser Tool",
+    "description": "A Bow-created browser extension for custom mini web routing and experimental browsing tools.",
+    "icon": "assets/default-icon.svg",
+    "page": "MiniNet/",
+    "download": "downloads/MiniNet-v1.0.0.zip",
+    "updated": "2026-06-11",
+    "featured": true
+  },
+  {
+    "name": "Magic Scripts Manager",
+    "folder": "Magic-Scripts-Manager",
+    "version": "1.0.0",
+    "status": "Coming Soon",
+    "category": "Productivity",
+    "description": "Manage Bow-created browser scripts and quick tools in one place.",
+    "icon": "assets/default-icon.svg",
+    "page": "#",
+    "download": "#",
+    "updated": "2026-06-11",
+    "featured": false
+  }
+]
